@@ -1,0 +1,13 @@
+train: /home/user/Desktop/OBJECT_DETECT_AND_LLM/AI_Detect/data-set/train/images
+val: /home/user/Desktop/OBJECT_DETECT_AND_LLM/AI_Detect/data-set/valid/images
+test: /home/user/Desktop/OBJECT_DETECT_AND_LLM/AI_Detect/data-set/test/images
+
+nc: 5
+names: ['Coyote', 'Deer', 'Hog', 'Rabbit', 'Raccoon']
+
+roboflow:
+  workspace: my-game-pics
+  project: my-game-pics
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/my-game-pics/my-game-pics/dataset/5
